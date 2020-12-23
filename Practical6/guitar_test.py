@@ -1,3 +1,6 @@
+"""URL: https://github.com/KampangChauJCU/CP1404.git"""
+
+
 from Practical6.guitar import Guitar
 
 CURRENT_YEAR = 2020

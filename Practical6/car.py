@@ -1,4 +1,6 @@
-"""CP1404/CP5632 Practical - Car class example."""
+"""CP1404/CP5632 Practical - Car class example.
+URL：https://github.com/KampangChauJCU/CP1404.git
+"""
 
 
 class Car:
