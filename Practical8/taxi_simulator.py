@@ -1,7 +1,3 @@
-"""
-CP1404/CP5632 Practical - Suggested Solution
-Taxi simulator
-"""
 from Practical8.car import Car
 from Practical8.taxi import Taxi
 from Practical8.silver_service_taxi import SilverServiceTaxi
