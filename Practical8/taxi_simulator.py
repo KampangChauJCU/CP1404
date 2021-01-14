@@ -18,7 +18,6 @@ def main():
         if menu_choice == "c":
             print("Taxis available: ")
             display_taxis(taxis)
-            # no error-checking
             taxi_choice = int(input("Choose taxi: "))
             current_taxi = taxis[taxi_choice]
         elif menu_choice == "d":
@@ -41,13 +40,11 @@ def main():
 
 
 def display_taxis(taxis):
-    """Display numbered list of taxis."""
     for i, taxi in enumerate(taxis):
         print("{} - {}".format(i, taxi))
 
 
 def run_tests():
-    """Run tests to show workings of Car and Taxi classes."""
     bus = Car("Datsun", 180)
     bus.drive(30)
     print("fuel =", bus.fuel)
@@ -57,7 +54,6 @@ def run_tests():
     print("odo = ", bus.odometer)
     print(bus)
 
-    # drive bus (input/loop is oblivious to fuel)
     distance = int(input("Drive how far? "))
     while distance > 0:
         travelled = bus.drive(distance)
