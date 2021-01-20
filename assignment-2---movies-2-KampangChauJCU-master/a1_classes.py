@@ -5,7 +5,6 @@ Student Number: 13710009
 Date started: 04/12/2020
 GitHub URL: https://github.com/JCUS-CP1404/assignment-2---movies-2-KampangChauJCU.git
 """
-
 MENU = """Menu:
 L - List movie
 A - Add new movie
